@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class MyPage {
     private SelenideElement clickMe = $(By.xpath("//button[text()='Click Me']"));
 
-    public boolean clickMe() {
+    public boolean isVisible() {
         return clickMe.isDisplayed();
     }
 }
