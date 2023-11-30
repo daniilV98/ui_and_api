@@ -96,14 +96,4 @@ public class UserDataTest {
                 .delete("api/users/2")
                 .then().log().all();
     }
-
-    public static void main(String[] args) {
-        Set set = new HashSet();
-        set.add("dsdsds");
-        set.add("s");
-        set.add("dsddsdsds");
-
-        Iterator f = set.iterator();
-        boolean v = f.next().equals("dsddsdsds");
-    }
 }

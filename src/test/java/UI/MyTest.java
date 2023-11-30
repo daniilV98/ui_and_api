@@ -17,15 +17,15 @@ public class MyTest extends BaseTest {
         m = new MyPage();
         open("https://demoqa.com/");
 
-        assertAll(
-                () -> assertEquals("sd", "sa"),
-                () -> assertEquals("sd", "sa")
-        );
+//        assertAll(
+//                () -> assertEquals("sd", "sa"),
+//                () -> assertEquals("sd", "sa")
+//        );
 
     }
 
     @Test
     public void first() {
-        Assertions.assertFalse(m.clickMe());
+        Assertions.assertFalse(m.isVisible());
     }
 }
